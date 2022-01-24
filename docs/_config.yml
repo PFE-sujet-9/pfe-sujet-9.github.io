@@ -22,7 +22,8 @@ title: Recalage du nuage de points
 description: >- # this means to ignore newlines until "baseurl:"
   Documentation du projet de fin d'étude sur le recalage de nuages de points
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+domain: pfe-sujet-9.github.io
+url: https://pfe-sujet-9.github.io # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
