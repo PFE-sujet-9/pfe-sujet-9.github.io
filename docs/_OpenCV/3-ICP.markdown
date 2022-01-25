@@ -93,7 +93,7 @@ viewer.spin()
 
 Résultat :
 
-![Sampling](../../assets/Open3D/ICP/Sampling.png)
+![Sampling](../../assets/OpenCV/ICP/Sampling.png)
 
 # Recalage
 
@@ -185,7 +185,7 @@ viewer.spin()
 ```
  
 Résultat :
-![Registration](../../assets/Open3D/ICP/Registration.png)
+![Registration](../../assets/OpenCV/ICP/Registration.png)
 
 Valeur de result :
 ```
