@@ -187,7 +187,7 @@ viewer.spin()
 Résultat :
 ![Registration](../../assets/Open3D/ICP/Registration.png)
 
-Valur de result :
+Valeur de result :
 ```
 (0, 0.005591467522456486, array([[ 0.99207945,  0.01622667, -0.12455947, -2.78593678],
      				  [ 0.01647234,  0.96625151,  0.25707332, 11.44790077],
