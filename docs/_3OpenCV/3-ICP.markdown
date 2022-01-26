@@ -195,3 +195,7 @@ Valeur de result :
      				  [ 0.        ,  0.        ,  0.        ,  1.        ]]))
 ```
 
+# Bibliographie
+
+[Surface matching d'OpenCV](https://docs.opencv.org/4.x/d9/d25/group__surface__matching.html)
+[Docupentation d'OpenCV](https://docs.opencv.org/4.x/dc/d9b/classcv_1_1ppf__match__3d_1_1ICP.html)
