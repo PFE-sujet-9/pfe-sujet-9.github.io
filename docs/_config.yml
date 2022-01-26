@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Recalage du nuage de points
+title: Recalage de nuages de points
 description: >- # this means to ignore newlines until "baseurl:"
   Documentation du projet de fin d'étude sur le recalage de nuages de points
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -32,16 +32,16 @@ plugins:
   - jekyll-feed
 
 collections:
-  Sujet:
+  1Sujet:
     name: Sujet
     output: true
-  Open3D:
+  2Open3D:
     name: Open3D
     output: true
-  OpenCV:
+  3OpenCV:
     name: OpenCV
     output: true
-  Qt:
+  4Qt:
     name: Qt
     output: true
 

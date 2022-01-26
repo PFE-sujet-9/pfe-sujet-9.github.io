@@ -7,20 +7,19 @@ description: Documentation du projet de fin d'étude sur les recalages de nuages
 ---
 
 {% for collection in site.collections %}
-    {% if collection.label != "posts" and site[collection.label].size  > 0 %}
+    {% if site[collection.label].size  > 0 %}
         <div>
             <h2 class="post-list-heading">{{ collection.name | default: collection.label}}</h2>
             <ul class="post-list">
                 {%- for post in site[collection.label] -%}
-                        <span class="post-meta">{{ post.category }}</span>
-                        <h3>
-                            <a class="post-link" href="{{ post.url | relative_url }}">
-                                {{ post.title | escape }}
-                            </a>
-                        </h3>
-                        {%- if site.show_excerpts -%}
-                          {{ post.excerpt }}
-                        {%- endif -%}
+                    <h4>
+                        <a class="post-link" href="{{ post.url | relative_url }}">
+                            {{ post.title | escape }}
+                        </a>
+                    </h4>
+                    {%- if site.show_excerpts -%}
+                      {{ post.excerpt }}
+                    {%- endif -%}
                 {%- endfor -%}
             </ul>
         </div>
