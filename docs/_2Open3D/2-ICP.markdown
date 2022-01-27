@@ -100,6 +100,13 @@ Valeur de result_icp :
 RegistrationResult with fitness=5.994593e-01, inlier_rmse=5.164453e-01, and correspondence_set size of 1552
 ```
 
+```
+[[ 9.90999579e-01  2.28145206e-02 -1.31906526e-01 -3.14435479e+00]
+ [ 1.10210434e-02  9.68119646e-01  2.50245656e-01  1.10904299e+01]
+ [ 1.33410533e-01 -2.49447087e-01  9.59154722e-01  4.34814387e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  1.00000000e+00]]
+```
+
 ![GIF animation pointsclouds](../assets/Open3D/ICP/animation.gif)
 
 # Bibliographie
